@@ -84,4 +84,5 @@ body{
     justify-content: end;
     background-color: #1db954;
     color: white;
+    cursor: pointer;
 }
