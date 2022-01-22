@@ -19,7 +19,7 @@ a{
     background: #000000b3;
 }
 .spotify-logo{
-    width: 10%;
+    width: 150px;
 }
 .div-cadastro h2{
     color: white;
@@ -41,6 +41,17 @@ a{
     cursor: pointer;
     margin-bottom: 25px;
 }
+.seta{
+    animation: seta 1s ease-out infinite; 
+    width: 5%;
+}
+@keyframes seta{
+    to{
+        transform: translateY(30px);
+    }
+    
+}
+
 .botão-cadastro:hover{
     background: #1db954;
 }
@@ -69,6 +80,7 @@ a{
     margin-bottom: 15px;
 }
 .login-content h3{
+    margin-top: 5px;
     margin-bottom: 5px;
     font-size: 15px;
     text-align: start;
@@ -98,4 +110,12 @@ a{
 }
 #botão-pular:hover{
     background-color: #188b41;
+}
+@media screen and (max-width:600px) {
+    .div-cadastro h2{
+        font-size: 20px;
+    }
+    .init-svg{
+        width: 90%;
+    }
 }
