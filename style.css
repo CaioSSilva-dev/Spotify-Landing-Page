@@ -93,6 +93,8 @@ a{
     background-color: #1db954;
     color: white;
     cursor: pointer;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 #botão-pular:hover{
     background-color: #188b41;
