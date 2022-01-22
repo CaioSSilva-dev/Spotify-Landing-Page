@@ -6,6 +6,10 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 .div-cadastro{
     display: flex;
     flex-direction: column;
@@ -79,10 +83,17 @@ body{
     color: #1db954;
     font-weight: 700;
 }
+.div-login button:hover{
+    background-color: #188b41;
+    color: white;
+}
 #botão-pular{
     display: flex;
     justify-content: end;
     background-color: #1db954;
     color: white;
     cursor: pointer;
+}
+#botão-pular:hover{
+    background-color: #188b41;
 }
