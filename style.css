@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.div-cadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    background: #000000b3;
+}
+.spotify-logo{
+    width: 10%;
+}
+.div-cadastro h2{
+    color: white;
+}
+.init-svg{
+    width: 35vw;
+}
+.botão-cadastro{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    background: #1ed760;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+.botão-cadastro:hover{
+    background: #1db954;
+}
+.div-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.back-login{
+    background-color: #1ed760;
+    border-radius: 20px;
+}
+.div-login h2 , h3{
+    text-align: center;
+    color: white;
+}
+.login-content{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.login-content h2{
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.login-content h3{
+    margin-bottom: 5px;
+    font-size: 15px;
+    text-align: start;
+}
+.div-login button{
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    color: #1db954;
+    font-weight: 700;
+}
+#botão-pular{
+    display: flex;
+    justify-content: end;
+    background-color: #1db954;
+    color: white;
+}
