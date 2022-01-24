@@ -127,4 +127,12 @@ a{
     .init-svg{
         width: 90%;
     }
+    #email{
+        background-color: white;
+        border: none;
+    }
+    #senha{
+        background-color: white;
+        border: none;
+    }
 }
