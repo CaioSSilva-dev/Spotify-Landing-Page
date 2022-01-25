@@ -61,6 +61,7 @@ a{
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-color: #303030;
 }
 .back-login{
     display: flex;
