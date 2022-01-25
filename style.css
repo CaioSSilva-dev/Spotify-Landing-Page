@@ -47,7 +47,7 @@ a{
 }
 @keyframes seta{
     to{
-        transform: translateY(30px);
+        transform: translateY(20px);
     }
     
 }
