@@ -92,7 +92,7 @@ a{
     font-size: 15px;
     text-align: start;
 }
-.div-login button{
+.botao-entrar{
     margin: 0 auto;
     margin-top: 30px;
     background-color: white;
@@ -103,24 +103,29 @@ a{
     border-radius: 10px;
     color: #1db954;
     font-weight: 700;
+    cursor: pointer;
 }
-.div-login button:hover{
+.botao-entrar:hover{
     background-color: #188b41;
     color: white;
 }
-#senha , #email{
+.senha , .email{
     padding: 4px;
 }
-#botão-pular{
+.botao-pular{
+    border-radius: 10px;
     display: flex;
     justify-content: end;
     background-color: #1db954;
     color: white;
     cursor: pointer;
+    border: none;
+    padding: 8px;
+    margin-top: 30px;
     padding-left: 25px;
     padding-right: 25px;
 }
-#botão-pular:hover{
+.botao-pular:hover{
     background-color: #188b41;
 }
 @media screen and (max-width:600px) {
@@ -133,11 +138,11 @@ a{
     .init-svg{
         width: 90%;
     }
-    #email{
+    .email{
         background-color: white;
         border: none;
     }
-    #senha{
+    .senha{
         background-color: white;
         border: none;
     }
