@@ -112,22 +112,6 @@ a{
 .senha , .email{
     padding: 4px;
 }
-.botao-pular{
-    border-radius: 10px;
-    display: flex;
-    justify-content: end;
-    background-color: #1db954;
-    color: white;
-    cursor: pointer;
-    border: none;
-    padding: 8px;
-    margin-top: 30px;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-.botao-pular:hover{
-    background-color: #188b41;
-}
 @media screen and (max-width:600px) {
     .seta{
         width: 4%;
