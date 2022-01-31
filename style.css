@@ -116,6 +116,7 @@ a{
     margin-top: 15px;
     background: transparent;
     border: none;
+    cursor: pointer;
 }
 .forgot-button h4{
     color: white;
