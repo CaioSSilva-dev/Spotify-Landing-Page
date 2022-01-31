@@ -112,6 +112,15 @@ a{
 .senha , .email{
     padding: 4px;
 }
+.forgot-button{
+    margin-top: 15px;
+    background: transparent;
+    border: none;
+}
+.forgot-button h4{
+    color: white;
+    font-size: 12px;
+}
 @media screen and (max-width:600px) {
     .seta{
         width: 4%;
